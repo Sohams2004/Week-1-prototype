@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Vehicle
+  - Wall
+  - Outline
+  - Game Win
+  - Pause Panel
   layers:
   - Default
   - TransparentFX

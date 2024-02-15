@@ -133,7 +133,7 @@ public class TargetSelect : MonoBehaviour
     {
         Debug.Log("Moved up");
         //Vector3 moveUp = Vector3.forward * Time.deltaTime;
-        Vector3 moveUp = new Vector3(0, 0, 0.05f);
+        Vector3 moveUp = new Vector3(0, 0, 0.1f);
         rb.MovePosition(transform.localPosition += moveUp);
     }
     
@@ -141,7 +141,7 @@ public class TargetSelect : MonoBehaviour
     {
         Debug.Log("Moved down");
         //Vector3 moveDown = Vector3.forward * Time.deltaTime;
-        Vector3 moveDown = new Vector3(0, 0, -0.05f);
+        Vector3 moveDown = new Vector3(0, 0, -0.1f);
         rb.MovePosition(transform.localPosition += moveDown);
     }
 
@@ -149,7 +149,7 @@ public class TargetSelect : MonoBehaviour
     {
         Debug.Log("Moved Left");
         //Vector3 moveLeft = Vector3.left * Time.deltaTime;
-        Vector3 moveLeft = new Vector3(-0.05f, 0, 0);
+        Vector3 moveLeft = new Vector3(-0.1f, 0, 0);
         rb.MovePosition(transform.localPosition += moveLeft);
     }
     
@@ -157,7 +157,7 @@ public class TargetSelect : MonoBehaviour
     {
         Debug.Log("Moved Right");
         //Vector3 moveRight = Vector3.left * Time.deltaTime;
-        Vector3 moveRight = new Vector3(0.05f, 0, 0);
+        Vector3 moveRight = new Vector3(0.1f, 0, 0);
         rb.MovePosition(transform.localPosition += moveRight);
     }
 

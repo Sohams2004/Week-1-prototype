@@ -42,6 +42,7 @@ public class LevelManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
+            print("Paused");
             Time.timeScale = 0;
             pausePanel.SetActive(true);
         }
